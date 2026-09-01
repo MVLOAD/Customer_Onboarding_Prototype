@@ -53,7 +53,7 @@ export default function Sidebar({ onNavigate }: { onNavigate: () => void }) {
       {/* Logo */}
       <div className="flex items-center justify-center border-b border-gray-100 px-4 py-4">
         <img
-          src="public/mvload.png"
+          src="mvload.png"
           alt="MV LOAD"
           className="h-12 w-auto object-contain cursor-pointer transition hover:scale-105"
           onClick={onNavigate}
